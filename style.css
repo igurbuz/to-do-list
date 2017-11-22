@@ -1,0 +1,108 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+  color: grey;
+
+}
+a{
+  text-decoration: none;
+  color: grey;
+}
+/*.contienTout{
+  display:flex;
+  justify-content: space-between;
+}
+*/
+
+.button {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #fafafa;
+  box-shadow: 2px 2px 8px #aaa;
+  color: #555;
+  border: 2px solid #555;
+  box-shadow: 5px 5px 2px grey;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.todobox{
+  display: flex;
+  justify-content: space-between;
+  width: 563px;
+  height: 110px;
+  border: 1px black solid;
+}
+.spanlar{
+  float: right;
+  word-spacing: 10px;
+}
+.main{
+  width: 563px;
+  height: 700px;
+  background-color: rgb(255, 255, 255);
+  border: 2px black solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  box-shadow: 5px 5px 2px grey;
+}
+.main_container{
+  width: auto;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+.main_header {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+
+
+/* ...................main 2....................*/
+.main2{
+  width: 563px;
+  height: 700px;
+  background-color:  rgb(255, 255, 255);
+  border: 2px black solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  box-shadow: 5px 5px 2px grey;
+}
+
+.clear{
+
+
+}
+
+/* ...................footer....................*/
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 563px;
+
+}
+.footer > ul {
+  display: flex;
+  justify-content: space-around;
+}
+.inline li{
+  list-style-type: none;
+
+}
+li{
+  list-style-type: none;
+}
+
+.wrapper {
+  float: left;
+  display: flex;
+}
+
+
+/****BODY////////////////////////***/
+
+/* body background from https://subtlepatterns.com/ */
+body { background: #ffffff url(https://subtlepatterns.com/patterns/rough_diagonal.png) top left repeat; }
